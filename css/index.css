@@ -1,3 +1,6 @@
+@import "media.css";
+
+@media only screen and (min-width: 700px){
 * {
     margin: 0px;
     padding: 0px;
@@ -122,6 +125,10 @@ button:hover {
    background-color: hsl(0, 0%, 98%);
 }
 
+.menubtn{
+    display: none;
+}
+
 .content {
     position: relative;
     width: 100%;
@@ -191,3 +198,7 @@ h1 {
     padding-top: 40px;
 }
 
+.hero {
+    width: 500px;
+}
+}

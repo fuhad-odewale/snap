@@ -1,0 +1,129 @@
+/* for mobile */
+
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: hsl(0, 0%, 98%); 
+        width: 100%;
+        overflow: hidden;
+    }
+
+    header {
+        width: 100%;
+        height: 80px;
+        position: relative;
+        padding: 20px;
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menubtn {
+        display: inline;
+        position: absolute;
+        right: 20px;
+    }
+
+    .content {
+        position: relative;
+        width: 100%;
+        height: 820px;
+        display: block;
+    }
+
+    .box1 {
+        position: absolute;
+        top: 400px;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    h1 {
+        font-family: 'Epilogue', sans-serif;
+        font-size: 30px;
+        font-weight: 200px;
+        position: absolute;
+        width: 100%;
+        top: 20px;
+        left: 20px;
+        text-align: justify;
+    }
+
+    .box1 p {
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        left: 18px;
+        font-size: 20px;
+        text-align: justify;
+        color: hsl(0, 0%, 41%);
+    }
+    
+    .box1 button {
+        position: absolute;
+        top: 160px;
+        left: 40%;
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        color: white;
+        background-color: hsl(0, 0%, 8%);
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    .box1 button:hover {
+        cursor: pointer;
+        color: black;
+       background-color: hsl(0, 0%, 98%);
+    }
+
+    .image {
+        position: absolute;
+        top: 300px;
+    }
+    
+    .image ul{
+        display: flex;
+        list-style-type: none;
+    }
+    
+    .image ul li {
+        padding-right: 10px;
+    }
+    
+
+    .box2 {
+        position: absolute;
+        top: 20px;
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .hero{
+        width: 100%;
+        height: 350px;
+    }
+
+    
+    
+  }
