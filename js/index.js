@@ -4,7 +4,7 @@ let dropel = document.getElementsByClassName(dropdown)
 
 
 function drop() {
-    let dorp = "drop"
+    // let dorp = drop
     fall.innertext = `
     <div class="dropdown">
     <span>features <img src="images/icon-arrow-down.svg" alt=""></span> 
